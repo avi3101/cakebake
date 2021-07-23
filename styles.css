@@ -1,0 +1,344 @@
+
+#title
+{
+    min-height: 800px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background: linear-gradient(90deg,#FF94CC,#e667e6); */
+    background: url(images/front-view-delicious-chocolate-cake-stand-with-copy-space.jpg) no-repeat center center fixed;
+    background-size: cover;
+   
+}
+.logo
+{
+    width: 3rem;
+    height: 3rem;
+}
+.name
+{
+   font-size: 3rem;
+}
+.container-fluid
+{
+    padding: 3% 7% ;
+    text-align: center;
+}
+/* navbar section */
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding: 0px 18px;
+}
+.nav-link
+{
+    font-size: 2rem;
+}
+.navbar-brand
+{
+    
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: #F9F9F9;
+}
+#customize::after
+{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: url(images/wave.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top:-7.5%;
+    left: 0;
+}
+.part
+{
+    color: #FDFAF6;
+}
+.part:hover
+{
+    color: #FFDADA;
+}
+#title h1
+{
+  color: white;
+  padding-bottom: 30px;
+  line-height: 1.5;
+  font-family: 'Archivo', sans-serif;
+}
+.heading{
+    text-align: center;
+    color: #2c2c2c;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 3rem;
+}
+.heading span{
+    color: rgb(202, 139, 149);
+    text-transform: uppercase;
+}
+  .line
+{
+    color: white;
+    text-align: left;
+    
+}
+/*feature section */
+#features
+{ 
+   min-height: 300px;
+   position: relative; 
+   padding-top: 50px;
+  
+}
+
+}
+#features p
+{
+    padding: 2% 10%;
+}
+
+#features h3
+{
+    
+    font-size: 1.5rem;
+    
+}
+#feature .container-fluid .row .col{
+    display: flex;
+    grid-area: 1.5rem;
+}
+.feature-icons
+{
+    font-size: 2rem;
+   
+   color: #ef8172;
+}
+.feature-icons:hover
+{
+    color: #ff4c68;
+}
+
+/* customize section */
+#customize
+{
+    min-height: 500px;
+   background-color: #C68B59;
+   width: 100%;
+   height: 400px;
+}
+.custom
+{
+    padding: 4% ;
+    text-align: center;
+    top: 0;
+}
+#customize p
+{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    top:50px;
+}
+
+/* catogory section */
+#catogory{
+    padding: 3%;
+    text-align: center;
+}
+.catogory .box-container{
+    display: inline-flex;
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+}
+.catogory .box-container .box{
+    border: .1rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    flex: 1 1 25rem;
+}
+.catogory .box-container .box img{
+    width: 18rem;
+    height: 10rem;
+    margin: .5rem 0;
+}
+.catogory .box-container .box h3
+{
+    font-size: 2rem;
+    color: #2c2c2c;
+}
+.catogory .box-container .box p{
+    font-size: 1rem;
+    color: #666;
+}
+.catogory .box-container .box .btn {
+    display: block;
+    background-color: rgb(202, 139, 149);
+    font-size: 1.5rem;
+}
+.catogory .box-container .box .btn:hover{
+    background-color: #ff4c68;
+}
+
+/* product section */
+.card:hover{
+    box-shadow: 5px 5px 7px 1px rgba(202,139,149,0.82);
+    -webkit-box-shadow: 5px 5px 7px 1px rgba(202,139,149,0.82);
+    -moz-box-shadow: 5px 5px 7px 1px rgba(202,139,149,0.82);
+    
+}
+.card
+{
+    width: 100%;
+    height: 80%;
+}
+
+.img-fluid{
+    height: 90%;
+    width: 100%;
+}
+
+
+.container
+{
+    line-height: 2;
+}
+.row
+{
+    padding-bottom: 40px;
+}
+#product .p1 h6
+{
+    font-weight: 700;
+    color: #070707;
+}
+#product .p1 p{
+    color: rgb(133, 132, 132);
+}
+
+/* contact */
+
+.news
+{
+    background-color: black;
+    color: white;
+}
+.btn2
+{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input
+{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder
+{
+    color:white;
+}
+.news p
+{
+    margin: 0;
+}
+.fab
+{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.contact 
+{
+    padding: 3%;
+}
+.btn1
+{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(202, 139, 149);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: #ff4c68;
+}
+
+#more
+{
+    display: none ;
+}
+
+/* contact section */
+
+.contact .container
+{
+    text-align: center;
+    padding: 2%;
+
+}
+.contact .row
+{
+    padding: 1%;
+}
+.contact .in .row
+{
+    padding: 2%;
+}
+
+
+/* news section */
+.news
+{
+    background-color: rgb(180, 83, 99);
+    color: white;
+    text-align: center;
+}
+.btn2
+{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input
+{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder
+{
+    color:white;
+}
+.news .row 
+{
+    padding: 2%;
+}
+
